@@ -1,1 +1,37 @@
+Project Title
+Heart Disease Classification Using Machine Learning
 
+Author
+Rupali Shah
+
+Executive Summary
+
+Heart disease, a broad term encompassing conditions affecting the heart and blood vessels, poses a significant health threat. This project aims to leverage machine learning techniques to classify individuals as either diseased or not diseased based on relevant medical attributes. The research utilizes a dataset containing information such as age, gender, chest pain type, blood pressure, cholesterol levels, and more.
+
+Rationale
+
+Understanding and predicting heart disease is crucial for early intervention and effective healthcare management. Machine learning models can contribute to accurate classification, enabling timely detection and lowering mortality rates.
+
+Research Question
+
+Can machine learning models accurately classify individuals as diseased or not diseased based on their medical attributes?
+
+Data Sources
+
+The dataset used for this research is sourced from The Careerera and includes 303 individuals, both with and without heart disease. Attributes such as age, gender, chest pain type, blood pressure, cholesterol levels, and more are included.
+
+Methodology
+
+The project employs a classification approach, aiming to categorize individuals into two groups: diseased (1) or not diseased (0). Logistic Regression Classifier is chosen as the primary machine learning algorithm for its suitability in binary classification tasks.
+
+Results
+
+The machine learning model achieved an accuracy of 85.71% with default hyperparameters. The Logistic Regression Classifier demonstrated effectiveness in classifying individuals based on medical attributes.
+
+Next Steps
+
+Hyperparameter Tuning: Investigate and optimize hyperparameters to potentially improve model performance.
+Feature Importance Analysis: Conduct a thorough analysis of feature importance to understand the variables contributing significantly to the classification.
+Validation and Testing: Validate the model on external datasets and perform rigorous testing to ensure generalizability.
+Deployment: Explore opportunities for deploying the model in a real-world healthcare setting, considering ethical and regulatory considerations.
+Continuous Monitoring: Implement a system for continuous monitoring and updating of the model to adapt to evolving healthcare scenarios.
